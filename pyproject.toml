@@ -1,0 +1,16 @@
+[project]
+name = "ml1-ws25"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.1.0,<5.0.0a0",
+    "jupyterlab-lsp>=5.2.0",
+    "lab>=8.5",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "python-lsp-server[all]>=1.13.1",
+    "scikit-learn>=1.7.2",
+]
